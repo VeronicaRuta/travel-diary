@@ -26,11 +26,13 @@ This website showcases my July 2023 road trip across the USA and is designed for
 - Google Fonts (Playfair Display, Lato)
 - Git and GitHub for version control, GitHub Pages for publishing
 - Visual Studio Code as editor
+- [ILoveIMG](https://www.iloveimg.com/it): to convert PNG photos to JPG
 
 ## Credits
 
 - Photos: all photos were taken by me.
 - Fonts: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) and [Lato](https://fonts.google.com/specimen/Lato), via Google Fonts.
+- validator.w3.org: to verify any errors
 
 ## AI use
 
