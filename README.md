@@ -12,10 +12,10 @@ This website showcases my July 2023 road trip across the USA and is designed for
 
 ## Pages
 
-- index.html: ...
-- grand-canyon.html: ...
-- antelope-canyon.html: ...
-- bryce-canyon.html: ...
+- index.html: home page with hero section and three canyon cards
+- grand-canyon.html: my visit to the Grand Canyon
+- antelope-canyon.html: my visit to Antelope Canyon
+- bryce-canyon.html: my visit to Bryce Canyon
 
 ## Technologies
 
