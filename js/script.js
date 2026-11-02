@@ -1,9 +1,3 @@
-const images = [
-    "img/grand-canyon/grand-canyon-01.jpg",
-    "img/grand-canyon/grand-canyon-02.jpg",
-    "img/grand-canyon/grand-canyon-03.jpg"
-];
-
 let current = 0;
 
 const photo = document.getElementById("carousel-img");

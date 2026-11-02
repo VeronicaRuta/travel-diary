@@ -29,7 +29,11 @@
     <main>
         <article class="page">
             <h1>Bryce Canyon</h1>
-            <img src="img/bryce-canyon/bryce-canyon-01.jpg" alt="Orange rock spires called hoodoos in Bryce Canyon">
+            <div class="carousel">
+                <button id="prev" type="button">Previous</button>
+                <img id="carousel-img" src="img/bryce-canyon/bryce-canyon-01.jpg" alt="Orange rock spires called hoodoos in Bryce Canyon">
+                <button id="next" type="button">Next</button>
+            </div>
             <p>On July 30, 2023, I visited Bryce Canyon, and I was fascinated by its extraordinary landscape. The
                 colorful rock formations and endless views made me feel amazed by the beauty of nature. It felt like
                 being in a completely different world, and it was an experience I will always remember.</p>
@@ -39,6 +43,14 @@
     <footer>
         <p>All photos were taken by me.</p>
     </footer>
+    <script>
+    const images = [
+        "img/bryce-canyon/bryce-canyon-01.jpg",
+        "img/bryce-canyon/bryce-canyon-02.jpg",
+        "img/bryce-canyon/bryce-canyon-03.jpg"
+    ];
+</script>
+<script src="js/script.js"></script>
 </body>
 
 </html>
