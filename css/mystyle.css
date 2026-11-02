@@ -8,4 +8,34 @@ body {
 h1 {
   font-family: 'Playfair Display', serif;
   color: #c8553d;
+}.hero {
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-text {
+  background-color: rgba(250, 246, 240, 0.85);
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  max-width: 90%;
+}
+
+.button {
+  display: inline-block;
+  background-color: #c8553d;
+  color: #faf6f0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.button:hover {
+  background-color: #3b2f2f;
 }
