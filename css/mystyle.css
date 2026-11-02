@@ -8,7 +8,9 @@ body {
 h1 {
   font-family: 'Playfair Display', serif;
   color: #c8553d;
-}.hero {
+}
+
+.hero {
   background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
@@ -38,7 +40,9 @@ h1 {
 
 .button:hover {
   background-color: #3b2f2f;
-}.canyons {
+}
+
+.canyons {
   padding: 3rem 2rem;
   text-align: center;
 }
@@ -67,4 +71,19 @@ h1 {
 
 .card-body {
   padding: 1rem 1.5rem 1.5rem;
+}
+
+.page {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1.5rem;
+}
+
+.page img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+footer {
+    text-align: center;
 }
