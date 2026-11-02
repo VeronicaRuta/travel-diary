@@ -21,16 +21,15 @@ This website showcases my July 2023 road trip across the USA and is designed for
 
 - HTML with semantic tags (header, nav, main, section, article, footer)
 - CSS in an external stylesheet (css/mystyle.css)
-- JavaScript
+- JavaScript for the photo carousel on the canyon pages
 - Flexbox for the navigation menu and the responsive photo cards
 - Google Fonts (Playfair Display, Lato)
 - Git and GitHub for version control, GitHub Pages for publishing
 - Visual Studio Code as editor
-- [ILoveIMG](https://www.iloveimg.com/it): to convert PNG photos to JPG
 
 ## Credits
 
-- Photos: all photos were taken by me.
+- Photos: all photos were taken by me and converted from PNG to JPG with [ILoveIMG](https://www.iloveimg.com/).
 - Fonts: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) and [Lato](https://fonts.google.com/specimen/Lato), via Google Fonts.
 - validator.w3.org: to verify any errors
 
