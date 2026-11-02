@@ -1,6 +1,6 @@
 # My Travel Diary
 
-This website tells the story of a road trip across the USA in July 2023, exploring iconic cities such as Los Angeles, San Francisco, and San Diego, as well as breathtaking natural wonders like Bryce Canyon, Antelope Canyon, Monument Valley, and Sequoia National Park. It captures the unforgettable landscapes, places, and experiences of an incredible American adventure.
+This website tells the story of a road trip across the USA in July 2023, exploring iconic cities such as Los Angeles, San Francisco, and San Diego, as well as breathtaking natural wonders like Bryce Canyon, Antelope Canyon, Monument Valley, and Sequoia National Park. It captures the unforgettable landscapes, places, and experiences of an incredible American adventure. This site focuses on three stops: Grand Canyon, Antelope Canyon and Bryce Canyon.
 
 ## Live site
 
@@ -26,12 +26,12 @@ This website showcases my July 2023 road trip across the USA and is designed for
 - Google Fonts (Playfair Display, Lato)
 - Git and GitHub for version control, GitHub Pages for publishing
 - Visual Studio Code as editor
+- W3C Markup Validator, to check the HTML.
 
 ## Credits
 
 - Photos: all photos were taken by me and converted from PNG to JPG with [ILoveIMG](https://www.iloveimg.com/).
 - Fonts: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) and [Lato](https://fonts.google.com/specimen/Lato), via Google Fonts.
-- validator.w3.org: to verify any errors
 
 ## AI use
 
