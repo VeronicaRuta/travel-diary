@@ -110,3 +110,16 @@ footer {
   border-radius: 4px;
   cursor: pointer;
 }
+
+.social-link {
+  color: #3b2f2f;
+}
+
+.social-link:hover {
+  color: #c8553d;
+}
+
+.social-link svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
