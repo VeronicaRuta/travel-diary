@@ -31,9 +31,8 @@ This website showcases my July 2023 road trip across the USA and is designed for
 ## Credits
 
 - Photos: all photos were taken by me and converted from PNG to JPG with [ILoveIMG](https://www.iloveimg.com/).
-- Fonts: [Playfair Display](https://fonts.google.com/specimen/Playfair+Display) and [Lato](https://fonts.google.com/specimen/Lato), via Google Fonts.
-- Icons: GitHub icon from [Bootstrap Icons](https://icons.getbootstrap.com/)
-- Icons: GitHub and LinkedIn icons from [Bootstrap Icons](https://icons.getbootstrap.com/)
+- Icons: GitHub icon from [Bootstrap Icons](https://icons.getbootstrap.com/).
+- Icons: GitHub and LinkedIn icons from [Bootstrap Icons](https://icons.getbootstrap.com/).
 - Water.CSS
 
 ## AI use
