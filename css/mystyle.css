@@ -120,6 +120,45 @@ footer {
   cursor: pointer;
 }
 
+@media (max-width: 600px) {
+
+  .page {
+    margin: 1rem auto;
+    padding: 0 0.75rem;
+  }
+
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .carousel img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    flex: none;
+    object-fit: contain;
+  }
+
+  .carousel button {
+    width: 45%;
+  }
+
+  .carousel {
+    position: relative;
+  }
+
+  .carousel button:first-child {
+    align-self: flex-start;
+  }
+
+  .carousel button:last-child {
+    align-self: flex-end;
+    margin-top: -3.4rem;
+  }
+}
+
 .social-link {
   color: #3b2f2f;
 }
