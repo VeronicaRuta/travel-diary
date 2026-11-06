@@ -154,33 +154,34 @@ footer {
     grid-row: 2;
     width: 100%;
   }
-    
+
   header {
-  padding: 0.4rem 0.40rem;
-    }
+    padding: 0.4rem 0.40rem;
+  }
 
   nav {
-  gap: 0.4rem 0.4rem;
-  justify-content: center;
-   }
+    gap: 0.4rem 0.4rem;
+    justify-content: center;
+  }
 
   nav a {
-  font-size: 0.57rem;
-  white-space: nowrap;
+    font-size: 0.57rem;
+    white-space: nowrap;
   }
+
   .hero-text {
-  padding: 1rem 1.2rem;
-  max-width: 95%;
-}
+    padding: 1rem 1.2rem;
+    max-width: 95%;
+  }
 
-.hero-text h1 {
-  font-size: 1.6rem;
-  white-space: nowrap;
-}
+  .hero-text h1 {
+    font-size: 1.6rem;
+    white-space: nowrap;
+  }
 
-.hero-text p {
-  font-size: 0.85rem;
-}
+  .hero-text p {
+    font-size: 0.85rem;
+  }
 }
 
 
@@ -224,6 +225,6 @@ nav a:hover {
 }
 
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
