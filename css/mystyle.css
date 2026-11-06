@@ -68,7 +68,7 @@ h3 {
   border-radius: 8px;
   overflow: hidden;
   width: 320px;
-  text-align: left;
+  text-align: center;
 }
 
 .card img {
@@ -121,43 +121,68 @@ footer {
 }
 
 @media (max-width: 600px) {
-
   .page {
     margin: 1rem auto;
     padding: 0 0.75rem;
   }
 
   .carousel {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
     gap: 0.75rem;
+    align-items: center;
   }
 
   .carousel img {
+    grid-column: 1 / 3;
+    grid-row: 1;
     width: 100%;
     max-width: 100%;
     height: auto;
-    flex: none;
-    object-fit: contain;
+    min-width: 0;
   }
 
-  .carousel button {
-    width: 45%;
+  .carousel button:first-of-type {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
   }
 
-  .carousel {
-    position: relative;
+  .carousel button:last-of-type {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
   }
+    
+  header {
+  padding: 0.4rem 0.40rem;
+    }
 
-  .carousel button:first-child {
-    align-self: flex-start;
-  }
+  nav {
+  gap: 0.4rem 0.4rem;
+  justify-content: center;
+   }
 
-  .carousel button:last-child {
-    align-self: flex-end;
-    margin-top: -3.4rem;
+  nav a {
+  font-size: 0.57rem;
+  white-space: nowrap;
   }
+  .hero-text {
+  padding: 1rem 1.2rem;
+  max-width: 95%;
 }
+
+.hero-text h1 {
+  font-size: 1.6rem;
+  white-space: nowrap;
+}
+
+.hero-text p {
+  font-size: 0.85rem;
+}
+}
+
 
 .social-link {
   color: #3b2f2f;
