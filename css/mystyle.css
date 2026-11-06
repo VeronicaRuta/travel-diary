@@ -153,3 +153,8 @@ nav a {
 nav a:hover {
   color: #c8553d;
 }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
