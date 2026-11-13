@@ -1,13 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   max-width: none;
   margin: 0;
   padding: 0;
   background-color: #faf6f0;
   color: #3b2f2f;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 h1 {
@@ -109,6 +109,7 @@ footer {
   min-width: 0;
   height: auto;
   border-radius: 8px;
+  cursor: zoom-in;
 }
 
 .carousel button {
@@ -119,71 +120,6 @@ footer {
   border-radius: 4px;
   cursor: pointer;
 }
-
-@media (max-width: 600px) {
-  .page {
-    margin: 1rem auto;
-    padding: 0 0.75rem;
-  }
-
-  .carousel {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    gap: 0.75rem;
-    align-items: center;
-  }
-
-  .carousel img {
-    grid-column: 1 / 3;
-    grid-row: 1;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    min-width: 0;
-  }
-
-  .carousel button:first-of-type {
-    grid-column: 1;
-    grid-row: 2;
-    width: 100%;
-  }
-
-  .carousel button:last-of-type {
-    grid-column: 2;
-    grid-row: 2;
-    width: 100%;
-  }
-
-  header {
-    padding: 0.4rem 0.40rem;
-  }
-
-  nav {
-    gap: 0.4rem 0.4rem;
-    justify-content: center;
-  }
-
-  nav a {
-    font-size: 0.57rem;
-    white-space: nowrap;
-  }
-
-  .hero-text {
-    padding: 1rem 1.2rem;
-    max-width: 95%;
-  }
-
-  .hero-text h1 {
-    font-size: 1.6rem;
-    white-space: nowrap;
-  }
-
-  .hero-text p {
-    font-size: 0.85rem;
-  }
-}
-
 
 .social-link {
   color: #3b2f2f;
@@ -227,4 +163,100 @@ nav a:hover {
 img {
   max-width: 100%;
   height: auto;
+}
+
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.lightbox.open {
+  display: flex;
+}
+
+.lightbox img {
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 8px;
+}
+
+.lightbox button {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  background: none;
+  border: none;
+  color: #faf6f0;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 750px) {
+  .page {
+    margin: 1rem auto;
+    padding: 0 0.75rem;
+  }
+
+  .carousel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .carousel img {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-width: 0;
+    cursor: zoom-in;
+  }
+
+  .carousel button:first-of-type {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+  }
+
+  .carousel button:last-of-type {
+    grid-column: 2;
+    grid-row: 2;
+    width: 100%;
+  }
+
+  header {
+    padding: 0.4rem 0.40rem;
+  }
+
+  nav {
+    gap: 0.4rem 0.4rem;
+    justify-content: center;
+  }
+
+  nav a {
+    font-size: 0.57rem;
+    white-space: nowrap;
+  }
+
+  .hero-text {
+    padding: 1rem 1.2rem;
+    max-width: 95%;
+  }
+
+  .hero-text h1 {
+    font-size: 1.6rem;
+    white-space: nowrap;
+  }
+
+  .hero-text p {
+    font-size: 0.85rem;
+  }
 }
